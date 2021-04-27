@@ -1,0 +1,19 @@
+.sidebar {
+	background-color:khaki;
+}
+.sidebar_content {
+	padding: 25px 35px;
+}
+.sidebar_item {
+	font-size: 2rem;
+}
+.sidebar_item a {
+	color: black;
+	letter-spacing: 2px;
+}
+.sidebar_item:not(:last-child) {
+	margin-bottom: 25px;
+}
+.sidebar_item__active {
+	color:red !important;
+}

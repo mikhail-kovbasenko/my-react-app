@@ -1,0 +1,26 @@
+.messages {
+
+}
+.messages_content {
+	display: flex;
+}
+.messages_users {
+
+}
+.messages_chats {
+
+}
+.messages_user {
+
+}
+.messages_user:not(:last-child) {
+	margin-bottom: 15px;
+}
+.messages_user a {
+	font-size: 1.5rem;
+	color: black;
+}
+.messages_user a:hover,
+.messages_user a.active {
+	color: gold;
+}

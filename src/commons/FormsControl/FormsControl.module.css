@@ -1,0 +1,10 @@
+.form_control {
+}
+.form_control_child {
+
+}
+.form_control > span {
+	color: red;
+	margin-top: 5px;
+	display: block;
+}
